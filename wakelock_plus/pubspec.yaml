@@ -23,7 +23,11 @@ dependencies:
 
   # Linux dependencies
   dbus: ^0.7.10
-  package_info_plus: ">=6.0.0 <9.0.0"
+  package_info_plus:
+    git:
+      ref: d30edd0795e88e944f846ce61d0cc64354e17677
+      url: git@github.com:curefit/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus
 
   # Web dependencies
   web: ">=0.5.1 <2.0.0"
